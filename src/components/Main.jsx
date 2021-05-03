@@ -25,14 +25,14 @@ class Main extends React.Component{
               <div className="row second-inner">
                   <div className="col-lg-12">
 
-                          <div className="card card-register">
+                          <div className="card-register">
                               <div className="card-header">
                                 {/* <!-- <img className="card-img" src="Square.jpg" alt="Card image"> --> */}
-                                  <h4 className="card-title" id="card-title" style={{color:"#dadada"}}>&nbsp;ROBOTiX Club</h4>
+                                  <h4 className="card-title" id="card-title" style={{color:"#dadada",backgroundColor:"transparent", textAlign:"center"}}>&nbsp;ROBOTiX Club</h4>
                               </div>
                               <div className="card-body">
-                                  <h4 className="text-primary" style={{color:"#e14eca"}}>National Institue of Technology, Raipur</h4>
-                                  <p className="text-white">We, Robotix Club of NIT Raipur, constitute enthusiasts and experts in the field of
+                                  <h4 className="text-primary" style={{color:"#e14eca", textAlign:"center"}}>National Institue of Technology, Raipur</h4>
+                                  <p className="text-white" style={{textAlign:"center"}}>We, Robotix Club of NIT Raipur, constitute enthusiasts and experts in the field of
                                     robotics who deal with the application of robotics in real life situations....</p>
                                   <div className="btn-wrapper">
                                     <div className="button-container">

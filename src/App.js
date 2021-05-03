@@ -8,7 +8,9 @@ import Main from "./components/Main"
 function App() {
   return (
     <div>
-     
+     <Main />
+     <AboutUs />
+     <Gallery />
     </div>
   );
 }
