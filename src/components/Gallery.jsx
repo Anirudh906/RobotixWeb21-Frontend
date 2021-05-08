@@ -1,5 +1,6 @@
 
 import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -93,6 +94,45 @@ class Gallery extends React.Component{
             </div>
         </div>
     </div>
+
+    <Helmet>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"/>
+
+{/* <!-- Latest compiled and minified JavaScript --> */}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous" defer></script>
+
+<style>{`
+    .container{
+      display: flex !important;
+    }
+    .slide_image_boots{
+        width:50%;
+        overflow: hidden;
+    }
+    img{
+        width: 500px !important;
+        height: 300px !important;
+    }
+@media screen and (max-width:770px){
+  .justify-content-between{
+      display: block;
+  }
+  .slide_image_boots{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+`}
+</style>
+
+<script type="text/JavaScript" src="../../public/assets/js/mrao-design.js" defer></script>
+  
+     
+    
+
+
+
+    </Helmet>
 
 
             </Fragment>
