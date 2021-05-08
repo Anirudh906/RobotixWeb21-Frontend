@@ -9,7 +9,7 @@ class Main extends React.Component{
             <Fragment>
 
         {/* <!-- <div id="main"> --> */}
-    <div id="main">
+    
       
       <div className="container-fluid" id="content">
           <div className="squares square1"></div>
@@ -58,7 +58,7 @@ class Main extends React.Component{
               </div>
           </div>
       </div>
-    </div>
+    
 
             </Fragment>
         );
