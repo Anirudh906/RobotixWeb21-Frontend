@@ -249,7 +249,7 @@ visibility: visible;
 }
 }
 .aboutcont{
-margin:100px;}
+margin:100px !important;}
 @media screen and (max-width:500px){.aboutcont{margin:20px;}}
   .squares.square8 {
     animation: move-left-right 6s infinite;
