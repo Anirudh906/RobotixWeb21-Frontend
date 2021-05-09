@@ -1,5 +1,6 @@
 
 import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 class Main extends React.Component{
@@ -58,7 +59,9 @@ class Main extends React.Component{
               </div>
           </div>
       </div>
-    
+      <Helmet>
+        <link rel="stylesheet" href="./assets/css/style_certificate.css"></link>
+      </Helmet>
 
             </Fragment>
         );
