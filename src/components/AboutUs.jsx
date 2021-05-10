@@ -96,17 +96,19 @@ class AboutUs extends React.Component{
               <h2 className="text-info"><strong>Our Domains</strong></h2>
               <ul className="nav nav-pills nav-pills-info align-items-center">
                 <li className="nav-item h5">
-                  <a className="nav-link " data-toggle="tab" href="#link1" data-toggle="tab">Public Relations &
+                    {/*conflict*/}
+                  <a className="nav-link" data-toggle="tab" href="#link1" >Public Relations &
                     Marketing</a>
                 </li>
                 <li className="nav-item h5">
-                  <a className="nav-link" data-toggle="tab" href="#link2" data-toggle="tab">Sponsorship</a>
+                  <a className="nav-link" data-toggle="tab" href="#link2" >Sponsorship</a>
                 </li>
                 <li className="nav-item h5">
-                  <a className="nav-link" data-toggle="tab" href="#link3" data-toggle="tab">Graphic & Web Design</a>
+                  <a className="nav-link" data-toggle="tab" href="#link3">Graphic & Web Design</a>
                 </li>
                 <li className="nav-item h5">
-                  <a className="nav-link" data-toggle="tab" href="#link4" data-toggle="tab">Documentation</a>
+                  <a className="nav-link" data-toggle="tab" href="#link4">Documentation</a>
+
                 </li>
               </ul>
        

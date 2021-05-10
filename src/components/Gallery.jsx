@@ -134,11 +134,13 @@ class Gallery extends React.Component{
                       artist of considerable range.
                     </p>
                     <div className="btn-wrapper pt-3">
-                      <a href="#" className="btn-simple btn btn-primary">
+          {/*conflict*/}
+                      <a href="/" className="btn-simple btn btn-primary">
                         <i className="tim-icons icon-book-bookmark"></i>{" "}
                         Bookmark
                       </a>
-                      <a href="#" className="btn-simple btn btn-info">
+                      <a href="/" className="btn-simple btn btn-info">
+
                         <i className="tim-icons icon-bulb-63"></i> Check it!
                       </a>
                     </div>
