@@ -134,7 +134,7 @@ class Gallery extends React.Component{
                       artist of considerable range.
                     </p>
                     <div className="btn-wrapper pt-3">
-/*conflict*/
+          {/*conflict*/}
                       <a href="/" className="btn-simple btn btn-primary">
                         <i className="tim-icons icon-book-bookmark"></i>{" "}
                         Bookmark
