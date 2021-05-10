@@ -96,6 +96,7 @@ class AboutUs extends React.Component{
               <h2 className="text-info"><strong>Our Domains</strong></h2>
               <ul className="nav nav-pills nav-pills-info align-items-center">
                 <li className="nav-item h5">
+                  /*conflict*/
                   <a className="nav-link" data-toggle="tab" href="#link1" >Public Relations &
                     Marketing</a>
                 </li>
@@ -107,6 +108,7 @@ class AboutUs extends React.Component{
                 </li>
                 <li className="nav-item h5">
                   <a className="nav-link" data-toggle="tab" href="#link4">Documentation</a>
+
                 </li>
               </ul>
        
