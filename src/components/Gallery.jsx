@@ -16,8 +16,8 @@ class Gallery extends React.Component{
               <div className="container cc">
                 <div className="justify-content-between row">
                   <div className="slide_image_boots">
-                    <Carousel>
-                      <Carousel.Item interval={1000} >
+                    <Carousel interval={1000} className="carousel-inner">
+                      <Carousel.Item className="carousel-item">
                         <img
                           className="d-block w-100"
                           src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg"
@@ -31,7 +31,7 @@ class Gallery extends React.Component{
                           </p>
                         </Carousel.Caption>
                       </Carousel.Item>
-                      <Carousel.Item interval={1000} >
+                      <Carousel.Item className="carousel-item">
                         <img
                           className="d-block w-100"
                           src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg"
@@ -45,9 +45,9 @@ class Gallery extends React.Component{
                           </p>
                         </Carousel.Caption>
                       </Carousel.Item>
-                      <Carousel.Item interval={1000} >
+                      <Carousel.Item className="carousel-item">
                         <img
-                          className="d-block w-100"
+                          className="d-block w-100 "
                           src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg"
                           alt="Third slide"
                         />
