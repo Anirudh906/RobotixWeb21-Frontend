@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main,dev ]
+    branches: [ dev ]
   pull_request:
     branches: [ main ]
 
@@ -26,5 +26,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm run build --if-present
-    - run: gh-pages -d build
+    - run: npm run build
