@@ -16,7 +16,7 @@ class Main extends React.Component{
           <div className="squares square1"></div>
           <div className="squares square2"></div>
           <div className="squares square3"></div>
-          <div className="squares square4"></div>
+          <div className="squares square4" style={{zIndex:"2"}}></div>
           <div className="squares square5"></div>
           <div className="squares square6"></div>
           <div className="squares square7"></div>
@@ -29,7 +29,7 @@ class Main extends React.Component{
                           <div className="card-register">
                               <div className="card-header">
                                 {/* <!-- <img className="card-img" src="Square.jpg" alt="Card image"> --> */}
-                                  <h4 className="card-title" id="card-title" style={{color:"#dadada",backgroundColor:"transparent", textAlign:"center"}}>&nbsp;ROBOTiX Club</h4>
+                                  <h4 className="card-title" id="card-title" style={{color:"#dadada",backgroundColor:"transparent", textAlign:"center"}}>&nbsp;ROBOTi<span className="X" style={{fontSize:"70px"}}>X</span> Club</h4>
                               </div>
                               <div className="card-body">
                                   <h4 className="text-primary" style={{color:"#e14eca", textAlign:"center"}}>National Institue of Technology, Raipur</h4>

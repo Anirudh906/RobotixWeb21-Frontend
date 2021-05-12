@@ -2,12 +2,14 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import Carousel from "react-bootstrap/Carousel";
-
-
+import api from "../service.js";
+import axios from "axios";
 
 class Gallery extends React.Component{
 
-  
+componentDidMount(){
+
+}
 
     render(){
         return (
@@ -124,7 +126,7 @@ class Gallery extends React.Component{
 
                   {/* <!--remove till here--> */}
                   <div className="col-md-5">
-                    <h1 className="profile-title text-left">Projects</h1>
+                    <h1 className="profile-title text-left">Gallery</h1>
                     {/* <h5 className="text-on-back">02</h5> */}
                     <p className="profile-description text-left">
                       An artist of considerable range, Ryan — the name taken by
@@ -133,15 +135,7 @@ class Gallery extends React.Component{
                       warm, intimate feel with a solid groove structure. An
                       artist of considerable range.
                     </p>
-                    <div className="btn-wrapper pt-3">
-                      <a href="/" className="btn-simple btn btn-primary">
-                        <i className="tim-icons icon-book-bookmark"></i>{" "}
-                        Bookmark
-                      </a>
-                      <a href="/" className="btn-simple btn btn-info">
-                        <i className="tim-icons icon-bulb-63"></i> Check it!
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
