@@ -25,14 +25,14 @@ const VantaR = () => {
     
       
       <div className="container-fluid" id="content">
-           <div className="squares square1"></div>
+           {/* <div className="squares square1"></div>
           <div className="squares square2"></div>
           <div className="squares square3"></div>
           <div className="squares square4" style={{zIndex:"2"}}></div>
           <div className="squares square5"></div>
           <div className="squares square6"></div>
           <div className="squares square7"></div>
-     
+      */}
           
           <div className="container inner-container ">
               <div className="row second-inner">
