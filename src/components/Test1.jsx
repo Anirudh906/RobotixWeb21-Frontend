@@ -1,27 +1,38 @@
+import React, { useState, useEffect, useRef, Fragment } from "react";
+import RINGS from "vanta/dist/vanta.rings.min";
+import { Helmet } from "react-helmet";
+// Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
-import React, { Fragment } from 'react';
-import { Helmet } from 'react-helmet';
-
-
-
-class Main extends React.Component{
-
-render(){
-        return(
-            <Fragment>
+const VantaR = () => {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const myRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        RINGS({
+          el: myRef.current,
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
+  return (<div ref={myRef}> 
+   <Fragment>
 
         {/* <!-- <div id="main"> --> */}
     
       
       <div className="container-fluid" id="content">
-          <div className="squares square1"></div>
+           <div className="squares square1"></div>
           <div className="squares square2"></div>
           <div className="squares square3"></div>
           <div className="squares square4" style={{zIndex:"2"}}></div>
           <div className="squares square5"></div>
           <div className="squares square6"></div>
           <div className="squares square7"></div>
-    
+     
           
           <div className="container inner-container ">
               <div className="row second-inner">
@@ -64,8 +75,16 @@ render(){
       </Helmet>
 
             </Fragment>
-        );
-    }
-}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>);
+};
 
-export default Main;
+export default VantaR;

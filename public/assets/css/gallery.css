@@ -1,18 +1,40 @@
 
+
 .X{
      animation: flicker 3s linear infinite;
 }
  @keyframes flicker {
 	 0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
 		 opacity: 0.99;
-		 text-shadow: -1px -1px 0 rgba(255, 255, 255, .4), 1px -1px 0 rgba(255, 255, 255, .4), -1px 1px 0 rgba(255, 255, 255, .4), 1px 1px 0 rgba(255, 255, 255, .4), 0 -2px 8px, 0 0 2px, 0 0 5px #ff00f2, 0 0 15px #f44, 0 0 2px #ff00f2, 0 2px 3px #000;
+		 text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.258), 1px -1px 0 rgba(255, 255, 255, 0.231), -1px 1px 0 rgba(255, 255, 255, 0.279), 1px 1px 0 rgba(255, 255, 255, .4), 0 -2px 8px, 0 0 2px, 0 0 5px #ff00f2, 0 0 15px #f44, 0 0 2px #ff00f2, 0 2px 3px #000;
 	}
 	 20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
 		 opacity: 0.4;
 		 text-shadow: none;
 	}
 }
+.header{
+    	 text-shadow: 1.5px 1.5px 0 #cac6c5,
+    	 -1.5px -1.5px 0 #cac6c5,
+    	 -1.5px -1.5px 0 #cac6c5,
+    	 -1.5px 1.5px 0 #cac6c5,
+    	 1.5px -1.5px 0 #cac6c5;
+    	 transition: all 400ms ease-in-out;
+}
+.header--pushDown {
+     text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333,  0.7778174593px 0.7778174593px 0 #aaa, 1.5556349186px 1.5556349186px 0 #aaa, 2.3334523779px 2.3334523779px 0 rgb(155, 121, 155), 3.1112698372px 3.1112698372px 0 rgb(150, 97, 164), 1.8890872965px 1.8890872965px 0 rgb(181, 113, 198), 2.6669047558px 2.6669047558px 0 rgb(233, 116, 231), 3.4447222151px 3.4447222151px 0 rgb(187, 80, 206), 4.2225396744px 4.2225396744px 0 rgb(135, 31, 149), 5.0003571337px 5.0003571337px 0 rgb(150, 28, 148), 5.7781745931px 5.7781745931px 0 rgb(184, 19, 181);
+ }
+ .header--pushDown:hover {
+     transform: translate(4px, 4px);
+     text-shadow: 1.5px 1.5px 0 #cac6c5; /*-1.5px -1.5px 0 #cac6c5, -1.5px -1.5px 0 #cac6c5, -1.5px 1.5px 0 #cac6c5, 1.5px -1.5px 0 #cac6c5;*/
+ }
+.header--shadow:hover {
+      transform: translate(3px, 0);
+  }
 
+.header--shadow:hover {
+      transform: translate(-3px, 0);
+  }
 .cc {
     display: flex !important;
 }

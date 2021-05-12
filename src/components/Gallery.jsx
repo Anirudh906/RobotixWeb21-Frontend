@@ -2,8 +2,7 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import Carousel from "react-bootstrap/Carousel";
-import api from "../service.js";
-import axios from "axios";
+
 
 class Gallery extends React.Component{
 
