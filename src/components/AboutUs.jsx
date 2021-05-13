@@ -13,11 +13,7 @@ class AboutUs extends React.Component{
     {/* SQUARES ANIMATION  */}
 
     <div className="container-fluid" id="content">
-      <div className="squares square1"></div>
-      <div className="squares square2"></div>
-      <div className="squares square3"></div>
-      <div className="squares square9"></div>
-      <div className="squares square5"></div>
+    
 
     </div>
 
@@ -40,11 +36,12 @@ class AboutUs extends React.Component{
       {/* <img className="card-img" src="images/Square.jpg" alt="Card image">  */}
 
       <div className="aboutcont">
-        <div className="page-title-sim ">
+        <div className="page-title-sim header header--shadow header--pushDown" style={{color:"white"}}>
           About Us
         </div>
-
-        <p style={{fontSize:"35px",color:"#1d8cf8",fontWeight:"bold"}}>Who are we ??</p>
+        <br /> <br />
+        <p style={{fontSize:"35px",color:"#1d8cf8",fontWeight:"bold", textAlign:"center"}}>Who are we ??</p>
+        <br />
         <p>The Robotix Club of NIT Raipur is the perfect combination of innovators, contributors and experts in the
           field
           of Robotics. The club has been inspiring minds ever since its inception in 2014.
@@ -55,7 +52,8 @@ class AboutUs extends React.Component{
           charge Dr. Rajesh Doriya (Department of Information Technology) who makes sure there is proper functioning of
           the club.
         </p>
-        <p style={{fontSize:"35px",color:"#1d8cf8",fontWeight:"bold"}}>Our Vision</p>
+        <br /> <br />
+        <p style={{fontSize:"35px",color:"#1d8cf8",fontWeight:"bold", textAlign:"center"}}>Our Vision</p>
         <p>Robotix Club NITRR strives to develop technological skills in the diverse field of mechatronics and robotics
           by
           transcending the theoretical knowledge into live application and providing live simple yet creative solution
