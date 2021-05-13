@@ -1,7 +1,7 @@
 name: Docker Image CI
 
 on:
-  pull_request:
+  push:
     branches: [ master ]
 
 jobs:
@@ -31,3 +31,11 @@ jobs:
           context: .
           push: true
           tags: robotixweb/frontend:github
+      - 
+        name: send custom message
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            New Frontend Image Push to Dockerhub 
