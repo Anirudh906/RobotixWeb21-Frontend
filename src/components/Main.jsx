@@ -38,7 +38,7 @@ render(){
                                   <p className="text-white" style={{textAlign:"center"}}>We, Robotix Club of NIT Raipur, constitute enthusiasts and experts in the field of
                                     robotics who deal with the application of robotics in real life situations....</p>
                                   <div className="btn-wrapper">
-                                    <div className="button-container">
+                                    <div className="button-container social-icons">
                                       <a rel="noreferrer" target="_blank" href="https://www.instagram.com/robotix_nitrr" className="icon">
                                         <i className="fa fa-instagram fa-2x" aria-hidden="true"></i><span className="tooltiptext">Follow Us</span>
                                       </a>
