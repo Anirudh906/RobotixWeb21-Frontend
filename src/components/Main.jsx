@@ -34,7 +34,7 @@ render(){
                                 
                               </div>
                               <div className="card-body">
-                                  <h4 className="text-primary" style={{color:"#e14eca", textAlign:"center"}}>National Institute of Technology, Raipur</h4>
+                                  <h4 className="text-primary" style={{color:"#eeca", textAlign:"center", fontWeight:"bold"}}>National Institute of Technology, Raipur</h4>
                                   <p className="text-white" style={{textAlign:"center"}}>We, Robotix Club of NIT Raipur, constitute enthusiasts and experts in the field of
                                     robotics who deal with the application of robotics in real life situations....</p>
                                   <div className="btn-wrapper">

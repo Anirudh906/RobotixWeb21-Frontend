@@ -8,11 +8,11 @@ import Events from "./components/Events";
 function App() {
   return (
     <div>
-     <Main />
+     
+     <VantaR />
      <AboutUs />
      <Gallery />
-     <Vanta />
-     <VantaR />
+     
      <Events />
     </div>
   );

@@ -13,11 +13,7 @@ class AboutUs extends React.Component{
     {/* SQUARES ANIMATION  */}
 
     <div className="container-fluid" id="content">
-      <div className="squares square1"></div>
-      <div className="squares square2"></div>
-      <div className="squares square3"></div>
-      <div className="squares square9"></div>
-      <div className="squares square5"></div>
+    
 
     </div>
 
@@ -40,7 +36,7 @@ class AboutUs extends React.Component{
       {/* <img className="card-img" src="images/Square.jpg" alt="Card image">  */}
 
       <div className="aboutcont">
-        <div className="page-title-sim ">
+        <div className="page-title-sim header header--shadow header--pushDown" style={{color:"white"}}>
           About Us
         </div>
         <br /> <br />

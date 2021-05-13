@@ -10067,7 +10067,7 @@ button.bg-darker:focus {
 }
 
 .text-primary {
-  color: #e14eca !important;
+  color: #e14eca ;
 }
 
 a.text-primary:hover,
@@ -20388,7 +20388,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   padding: 5px 0;
   font-size: 3.25em;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 0.2) ;
 
 }
 

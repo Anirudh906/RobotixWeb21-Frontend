@@ -12,6 +12,8 @@ const VantaR = () => {
       setVantaEffect(
         RINGS({
           el: myRef.current,
+          backgroundColor: 0x171941,
+          color: 0xc1cc5f
         })
       );
     }
@@ -75,7 +77,7 @@ const VantaR = () => {
                   <div className="card-body">
                     <h4
                       className="text-primary"
-                      style={{ color: "#e14eca", textAlign: "center" }}
+                      style={{ color: "#e19eca", textAlign: "center", fontWeight:"bold" }}
                     >
                       National Institute of Technology, Raipur
                     </h4>
@@ -85,7 +87,7 @@ const VantaR = () => {
                       application of robotics in real life situations....
                     </p>
                     <div className="btn-wrapper">
-                      <div className="button-container">
+                      <div className="button-container social-icons">
                         <a
                           rel="noreferrer"
                           target="_blank"
