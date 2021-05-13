@@ -181,12 +181,14 @@ margin-left: auto;
 margin-right: auto;
 }
 .button-container{
-width: 30%;
-margin : 50px auto;
+width: 50%;
+margin : 30px auto;
 display: flex;
 justify-content: space-between;
 }
 .fa{
+color: #e14eca;
+border: solid 2px #e14eca;
 border-radius: 30px;
 padding: 8px;
 margin: 10px auto;
@@ -247,7 +249,7 @@ visibility: visible;
 }
 }
 .aboutcont{
-margin:100px !important;}
+margin:100px;}
 @media screen and (max-width:500px){.aboutcont{margin:20px;}}
   .squares.square8 {
     animation: move-left-right 6s infinite;

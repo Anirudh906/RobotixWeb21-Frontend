@@ -20621,13 +20621,13 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   z-index: 2;
 }
 
-/* .card-register .card-header img {
+.card-register .card-header img {
   position: absolute;
   margin-left: -50px;
   margin-top: -150px;
   border-radius: 20%;
   width: 350px;
-} */
+}
 
 .card-register .header {
   margin-left: 20px;
