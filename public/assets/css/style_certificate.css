@@ -181,12 +181,14 @@ margin-left: auto;
 margin-right: auto;
 }
 .button-container{
-width: 30%;
-margin : 50px auto;
+width: 50%;
+margin : 30px auto;
 display: flex;
 justify-content: space-between;
 }
 .fa{
+color: #e14eca;
+border: solid 2px #e14eca;
 border-radius: 30px;
 padding: 8px;
 margin: 10px auto;
