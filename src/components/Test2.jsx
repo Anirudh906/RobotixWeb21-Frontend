@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, Fragment } from "react";
 import HALO from "vanta/dist/vanta.halo.min";
 import { Helmet } from "react-helmet";
+import Logo from "../images/RobotixLogo.png";
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 const Vanta = () => {
@@ -41,7 +42,7 @@ const Vanta = () => {
                           <div className="card-register">
                               <div className="card-header">
                                 {/* <!-- <img className="card-img" src="Square.jpg" alt="Card image"> --> */}
-                                  <h4 className="card-title" id="card-title" style={{color:"#dadada",backgroundColor:"transparent", textAlign:"center"}}>&nbsp;<span className="header header--shadow header--pushDown">ROBOTI<span className="X" style={{fontSize:"70px"}}>X</span> Club</span></h4>
+                                  <h4 className="card-title" id="card-title" style={{color:"#dadada",backgroundColor:"transparent", textAlign:"center"}}>&nbsp;<span className="header header--shadow header--pushDown">R<span><img src={Logo} style={{height:"60px", width:"60px", position:"relative", top:"-5px"}} alt="logo" ></img></span>BOTI<span className="X" style={{fontSize:"70px"}}>X</span> Club</span></h4>
                               </div>
                               <div className="card-body">
                                   <h4 className="text-primary" style={{color:"#e14eca", textAlign:"center"}}>National Institute of Technology, Raipur</h4>

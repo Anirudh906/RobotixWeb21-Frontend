@@ -45,8 +45,8 @@
 }
 
 img {
-    width: 500px !important;
-    height: 300px !important;
+    width: 500px;
+    height: 300px;
 }
 
 @media screen and (max-width:770px) {
